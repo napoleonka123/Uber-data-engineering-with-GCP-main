@@ -6,7 +6,7 @@ TLC Trip Record Data
 Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
 ## steps
 - __Step 1__: Create a data lake on GCP Cloud Storage to be used later as a staging layer. 
-- __Step 2__: Load the CSV file containing our raw data to Cloud Storage 
+- __Step 2__: Load the CSV file containing raw data to Cloud Storage 
 - __Step 3__:  Install Mage on an instance on GCP 
 - __step 4__: Extract the raw data from the staging area and apply the necessary transformations to convert the data into a dimensional model.
 - __step 5__:Create a dataset on BigQuery.
